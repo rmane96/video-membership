@@ -1,0 +1,4 @@
+/app/connect_bundle
+.env
+__pycache__
+venv
