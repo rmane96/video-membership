@@ -29,3 +29,6 @@ def test_password(setup):
     user_obj = q.first()
     assert user_obj.verify_password('abc123')
     
+    
+    
+    
