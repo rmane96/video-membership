@@ -3,6 +3,8 @@
 {% block content %}
 <h1>Signup</h1>
 
+{% include 'snippets/form_errors.html'%}
+
 <form method='POST'>
     <div>
         <label for='email'>Email</label>
@@ -15,8 +17,8 @@
     </div>
 
     <div>
-        <label for='password'>Confirm Password</label>
-        <input type='password' name='password' placeholder='Confirm your Password' />
+        <label for='password_confirm'>Confirm Password</label>
+        <input type='password' name='password_confirm' placeholder='Confirm your Password' />
     </div>
     <button type='submit'>Signup</button>
 
